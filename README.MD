@@ -1,4 +1,4 @@
-# SafeBEV: Progressive BEV Perception for Autonomous Driving
+# Progressive BEV Perception for Safe Autonomous Driving: From Single-Modality to Multi-Agent Collaborative Perception
 
 ## Introduction
 
