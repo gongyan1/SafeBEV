@@ -76,7 +76,7 @@ new methods:
 • GaussianLSS - Toward Real-world BEV Perception: Depth Uncertainty Estimation via Gaussian Splatting / [paper](https://arxiv.org/html/2504.01957v1) / [project](https://github.com/HCIS-Lab/GaussianLSS/) / arXiv / GaussianLSS  
 
 
-![BEV Timeline](Fig\03_Image_and_LiDAR_BEV_method.png)
+![Image_and_LiDAR_BEV_method](Fig/03_Image_and_LiDAR_BEV_method.png)
 
 
 # BEV LiDAR  
