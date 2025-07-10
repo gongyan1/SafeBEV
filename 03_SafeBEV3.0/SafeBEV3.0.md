@@ -1,7 +1,7 @@
 # SafeBEV3.0
 To ensure the safety of autonomous driving perception, beyond onboard perception which is influenced by factors such as vehicle position, sensor location, and object occlusion, roadside perception systems are typically characterized by fixed sensor placements and elevated installation heights, which contribute to a significant reduction in the adverse effects of occlusion on perception reliability and safety. And through cooperative perception methods such as V2V, V2I, and V2X, poses and features obtained from different perception devices can be effectively fused, providing autonomous vehicles with broader-range and more reliable perception results, thereby enhancing the safety of autonomous perception.
 
-![cooperative_method](Fig\05_cooperative_method.png)
+![cooperative_method](Fig/05_cooperative_method.png)
 
 
 ## Roadside BEV Perception Methods
