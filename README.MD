@@ -1,20 +1,35 @@
-# Progressive BEV Perception for Safe Autonomous Driving: From Single-Modality to Multi-Agent Collaborative Perception
+# 🛣️ Progressive BEV Perception for Safe Autonomous Driving
 
-## Introduction
+## 🚗 Introduction
 
-This repo is associated with the survey paper "[Progressive BEV Perception for Safe Autonomous Driving: From Single-Modality to Multi-Agent Collaborative Perception](https://ieeexplore.ieee.org/document/10321736)", which provides an up-to-date literature survey for BEV perception and an open-source BEV toolbox based on PyTorch. We also introduce the BEV algorithm family, including follow-up work on BEV percepton such as [VCD](https://arxiv.org/abs/2310.15670), [GAPretrain](https://arxiv.org/abs/2304.03105), and [FocalDistiller](https://openaccess.thecvf.com/content/CVPR2023/html/Zeng_Distilling_Focal_Knowledge_From_Imperfect_Expert_for_3D_Object_Detection_CVPR_2023_paper.html). We hope this repo can not only be a good starting point for new beginners but also help current researchers in the BEV perception community.
-<!-- In the literature survey, it includes different modalities (camera, lidar and fusion) and tasks (detection and segmentation). -->
-This repository complements the survey **"Progressive BEV Perception for Safe Autonomous Driving"**, which categorizes BEV perception into:
+This repo is associated with the survey paper "[Towards Safe and Robust Autonomous Driving: A Survey of Progressive Bird’s-Eye-View Perception]", which provides an up-to-date literature survey for BEV perception. We hope this repo can not only be a good starting point for new beginners but also help current researchers in the BEV perception community.
+### 📌 Highlights
+
+This repository complements the survey **"Towards Safe and Robust Autonomous Driving: A Survey of Progressive Bird’s-Eye-View Perception"**, which categorizes BEV perception into:
 1. SafeBEV 1.0: Single-Modality Vehicle-Side Perception
 2. SafeBEV 2.0: Multi-Modality Vehicle-Side Perception
 3. SafeBEV 3.0: Multi-Agent Collaborative Perception
+4. Datasets for BEV perception (onboard, V2X)
 
-🔍 This repository includes:
-- Summaries of key methods (camera, LiDAR, radar, fusion)
-- Datasets for BEV perception (onboard, V2X)
-- Open-source implementations
-- Challenges & future research directions
 
-📚 [Read the Full Survey Paper (PDF)](./docs/overview.md)
+📚 [Read the Full Survey Paper (PDF)]()
 
-📌 Keywords: BEV, LiDAR, Camera, Radar, V2X, V2I, V2V, Autonomous Driving, Multi-Modal Perception
+📌 Keywords: Bird’s-Eye-View (BEV), autonomous driving, multi-modal sensor fusion, collaborative perception, safety and robustness, datasets
+
+### 📌 Framework
+
+![framework](01_Framework.png)
+
+This figure illustrates the evolution of Bird’s-Eye-View (BEV) perception across three key stages: single-modality vehicle-side perception (SafeBEV 1.0), multi-modality vehicle-side perception (SafeBEV 2.0), and multi-agent collaborative perception (SafeBEV 3.0). Each stage highlights representative sensor configurations, classical methods, as well as core advantages and challenges. The progression reflects increasing robustness, extended perception range, and improved collaboration capabilities, with a consistent focus on safety and real-world applicability in autonomous driving.
+
+
+# SafeBEV Project Overview
+
+Welcome to SafeBEV! Below are the main components of this project:
+
+## 🔗 Sections
+
+1. [SafeBEV 1.0: Single-Modality Vehicle-Side Perception](./01_SafeBEV1.0/SafeBEV1.0.md)
+2. [SafeBEV 2.0: Multi-Modality Vehicle-Side Perception](./02_SafeBEV2.0/SafeBEV2.0.md)
+3. [SafeBEV 3.0: Multi-Agent Collaborative Perception](./03_SafeBEV3.0/SafeBEV3.0.md)
+4. [Datasets for BEV perception (onboard, V2X)](./04_Datasets/Datasets.md)
