@@ -1,7 +1,8 @@
 # SafeBEV 2.0: Multi-Modality Vehicle-Side Perception
 Vehicle-side multi-modal BEV fusion perception constitutes a core architecture in autonomous driving systems, effectively mitigating the limitations of single-sensor modalities by integrating complementary strengths from multiple sensors, thereby substantially improving the robustness and safety of environmental perception.
 
-![fusion](Fig\04_BEV_Fusion.png)
+![fusion](Fig/04_BEV_Fusion.png)
+
 
 *Figure: General pipeline of BEV fusion perception methods based on Camera, LiDAR, and Radar. The InterRAL module uses self-attention to fuse 4D Radar and 16-line LiDAR.*
 

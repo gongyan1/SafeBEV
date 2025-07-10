@@ -8,7 +8,7 @@ To better understand this evolving field, we categorize existing works along two
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•3D-to-2D: Estimate intermediate 3D representations before BEV projection  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•2D-to-3D: Learn direct mappings from 2D images to BEV space  
 
-![BEV Timeline](Fig\02_Overview_of_BEV_perception_method.png)
+![Overview_of_BEV_perception_method](Fig/02_Overview_of_BEV_perception_method.png)
 
 
 ## Monocular 
